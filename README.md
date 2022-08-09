@@ -25,7 +25,7 @@ ___Training the bot:___
 
 ___How the bot picks responses:___
 
-- Uses __Bag-Of-Words__ model to get an appropriate response to an input message based on probability
+- Uses __Bag-Of-Words__ model to retrieve an appropriate response to a user input message based on probability
 <br></br>
 
 # Built With:
