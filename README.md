@@ -18,7 +18,7 @@ Step 2: Test the bot locally
 ___Training the bot:___
 
 - __Tokenizes__ and __lemmatizes__ the patterns in intents.json, compiling them into a list
-- From the __Tensorflow__ library, implements __dense__ and __dropout__ layers following a __sequential__ model, using the __Rectified Linear Unit__ as the activation function for all layers except the final layer, which uses the __softmax__ activation function to scale the data into probabilities
+- From the __Tensorflow__ library, implements __dense__ and __dropout__ layers within a __sequential__ model, using the __Rectified Linear Unit__ as the activation function for all layers except the final layer, which uses the __softmax__ activation function to scale the data into probabilities
 - Couldn't reach a clear conclusion on which optimizer algorithm was better __(SGD vs Adam)__ even after a ton of tests, so I just left them both in (commented out SGD).
 - __Categorical cross-entropy__ used as loss function for my ANN due to __multi-label/class classification__
 <br></br>
