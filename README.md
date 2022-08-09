@@ -1,6 +1,7 @@
 <h1 align="center"> Multipurpose AI Chatbot </h1>
 
 - Multipurpose chatbot that can be easily integrated into any website to provide a place for user queries
+- Neural network layers implemented using Tensorflow (More in-depth explanation of how the bot works in the section below!)
 - Backend focused, but includes additional HTML and CSS template frontend along with Flask local hosting solely for visualization purposes:
 
 Step 1: Train the bot
