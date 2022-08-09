@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="static/style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ecommerce Query Chatbot</title>
+</head>
+<body>
+<div class="container">
+    <div class="chat">
+        <div class="chat-middle">
+            <div class="chat-top">
+                <div class="chat-top-image">
+                    <img src="static/images/representative-icon.png" alt="representative icon">
+                </div>
+                <div class="chat-content--header">
+                    <h1 class="chat-top-heading">Ask me anything!</h1>
+                    <p class="chat-top-sub">I'm Tom, your virtual assistant!</p>
+                </div>
+            </div>
+            <div class="chat-history">
+                <div></div>
+            </div>
+            <div class="chat-bottom">
+                <input type="text" placeholder="Type your question here">
+                <button class="chat-bottom-send">Send</button>
+            </div>
+        </div>
+        <div class="chat-bubble">
+            <button><img src="static/images/query-icon.png" /></button>
+        </div>
+    </div>
+</div>
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="static/script.js"></script>
+</body>
+</html>

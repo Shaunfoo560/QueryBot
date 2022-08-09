@@ -1,0 +1,82 @@
+{
+    "intents": [
+        {
+            "tag": "introduction",
+            "patterns": [
+                "hello",
+                "hey",
+                "hi",
+                "yo",
+                "greetings"
+            ],
+            "responses": [
+                "Hi! How may I help you?",
+                "Hey! What do you need help with?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "goodbye",
+                "bye",
+                "later",
+                "talk to you another time",
+                "cya"
+            ],
+            "responses": [
+                "Goodbye!",
+                "Hope to talk to you again!",
+                "Happy to help!"
+            ]
+        },
+        {
+            "tag": "appreciation",
+            "patterns": [
+                "thank you",
+                "thanks"
+            ],
+            "responses": [
+                "No problem!"
+            ]
+        },
+        {
+            "tag": "goods",
+            "patterns": [
+                "what do you have in stock?",
+                "items for sale?",
+                "what do you sell?"
+            ],
+            "responses": [
+                "We sell a wide variety of goods! Feel free to peruse the list of goods avaliable!"
+            ]
+        },
+        {
+            "tag": "payment",
+            "patterns": [
+                "is mastercard accepted?",
+                "can I pay with a debit card?",
+                "is paypal accepted?",
+                "do you take visa payment?",
+                "payment method?",
+                "how do i pay?"
+            ],
+            "responses": [
+                "We accept Visa, Mastercard, Paypal, and mobile payments."
+            ]
+        },
+        {
+            "tag": "delivery",
+            "patterns": [
+                "when is my delivery estimated to arrive?",
+                "delivery time?",
+                "how long does delivery take?",
+                "how long do i have to wait?", 
+                "how long does shipping take?",
+                "shipping length?"
+            ],
+            "responses": [
+                "In order to ensure that you receive the freshest of goods, all our deliveries will reach you within 6 hours!"
+            ]
+        }
+    ]
+}
