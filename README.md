@@ -1,15 +1,16 @@
 <h1 align="center"> Multipurpose AI Chatbot </h1>
 
-Training phase:
+__Training the bot:__
 
-- Tokenizes and lemmatizes the patterns in intents.json, compiling them into a list
-- From the Tensorflow library, implements dense and dropout layers following a sequential model, using the Rectified Linear Unit as the activation function for all layers except the final layer, which uses the softmax activation function to scale the data into probabilities
-- Couldn't reach a clear conclusion on which optimizer algorithm was better (SGD vs Adam) even after a ton of tests, so I just left them both in (commented out SGD).
-- Categorical cross-entropy used as loss function for my ANN due to multi-label/class classification
+- __Tokenizes__ and __lemmatizes__ the patterns in intents.json, compiling them into a list
+- From the __Tensorflow__ library, implements __dense__ and __dropout__ layers following a __sequential__ model, using the __Rectified Linear Unit__ as the activation function for all layers except the final layer, which uses the __softmax__ activation function to scale the data into probabilities
+- Couldn't reach a clear conclusion on which optimizer algorithm was better __(SGD vs Adam)__ even after a ton of tests, so I just left them both in (commented out SGD).
+- __Categorical cross-entropy__ used as loss function for my ANN due to __multi-label/class classification__
+<br></br>
 
-Response picking phase:
+__How the bot picks responses:__
 
-- Uses bag of words model to get an appropriate response to an input message based on probability
+- Uses __Bag-Of-Words__ model to get an appropriate response to an input message based on probability
 <br></br>
 
 # Built With:
