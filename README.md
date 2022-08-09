@@ -3,7 +3,8 @@
 - Multipurpose chatbot that can be easily integrated into any website to provide a place for user queries
 - Backend focused, but includes additional HTML and CSS template frontend along with Flask local hosting solely for visualization purposes:
 
-![Visualization-Purposes](https://user-images.githubusercontent.com/83842735/183675051-63cb8339-f424-4b8f-93eb-567bc6254e2f.png)
+![Example-training](https://user-images.githubusercontent.com/83842735/183676409-9ba03c55-e7be-41a2-a312-3b73a8274efc.png)
+![Example_Response](https://user-images.githubusercontent.com/83842735/183676890-be6f4dab-6b8d-4d57-89cf-0976bfc35c14.png)
 <br></br>
 
 # How It Works:
