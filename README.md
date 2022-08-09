@@ -1,6 +1,6 @@
 <h1 align="center"> Multipurpose AI Chatbot </h1>
 
-__Training the bot:__
+___Training the bot:___
 
 - __Tokenizes__ and __lemmatizes__ the patterns in intents.json, compiling them into a list
 - From the __Tensorflow__ library, implements __dense__ and __dropout__ layers following a __sequential__ model, using the __Rectified Linear Unit__ as the activation function for all layers except the final layer, which uses the __softmax__ activation function to scale the data into probabilities
@@ -8,7 +8,7 @@ __Training the bot:__
 - __Categorical cross-entropy__ used as loss function for my ANN due to __multi-label/class classification__
 <br></br>
 
-__How the bot picks responses:__
+___How the bot picks responses:___
 
 - Uses __Bag-Of-Words__ model to get an appropriate response to an input message based on probability
 <br></br>
