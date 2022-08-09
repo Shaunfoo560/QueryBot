@@ -1,5 +1,13 @@
 <h1 align="center"> Multipurpose AI Chatbot </h1>
 
+- Multipurpose chatbot that can be easily integrated into any website to provide a place for user queries
+- Backend focused, but includes additional html and css template frontend along with flask local hosting solely for visualization purposes:
+
+![Visualization-Purposes](https://user-images.githubusercontent.com/83842735/183675051-63cb8339-f424-4b8f-93eb-567bc6254e2f.png)
+<br></br>
+
+# How It Works:
+
 ___Training the bot:___
 
 - __Tokenizes__ and __lemmatizes__ the patterns in intents.json, compiling them into a list
@@ -33,3 +41,5 @@ After downloading all files:
 - Train the bot by running the train.py file
 - Start the bot by running the app.py file
 <br></br>
+
+
