@@ -71,7 +71,7 @@ model.add(Dense(128, activation = 'relu'))
 model.add(Dropout(0.6))
 model.add(Dense(64, activation = 'relu'))
 model.add(Dropout(0.5))
-# Final layer neurons matches number of tags, softmax to provide a list of probabilities for our predictions
+# Final layer neurons matches number of tags, softmax to transform output into probabilities for our predictions
 model.add(Dense(len(y_train[0]), activation = 'softmax'))
 
 # Couldn't reach a clear conclusion on which optimizer to use even after tons of tests so i just commented out SGD
