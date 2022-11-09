@@ -74,7 +74,7 @@ model.add(Dropout(0.5))
 # Final layer neurons matches number of tags, softmax to transform output into probabilities for our predictions
 model.add(Dense(len(y_train[0]), activation = 'softmax'))
 
-# Couldn't reach a clear conclusion on which optimizer to use even after tons of tests so i just commented out SGD
+# Couldn't reach a clear conclusion on which optimizer to use even after tons of tests so i just commented out Adam
 sgd = SGD(learning_rate = 0.01)
 # adam = Adam(learning_rate = 0.01)
 
