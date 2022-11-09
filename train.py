@@ -75,8 +75,8 @@ model.add(Dropout(0.5))
 model.add(Dense(len(y_train[0]), activation = 'softmax'))
 
 # Couldn't reach a clear conclusion on which optimizer to use even after tons of tests so i just commented out SGD
-# sgd = SGD(learning_rate = 0.01)
-adam = Adam(learning_rate = 0.001)
+sgd = SGD(learning_rate = 0.01)
+# adam = Adam(learning_rate = 0.01)
 
 # Categorical crossentropy used due to multi-label/class classification
 model.compile(optimizer = adam, loss = 'categorical_crossentropy', metrics = ['accuracy'])
